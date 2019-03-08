@@ -1,0 +1,14 @@
+unit Click_Angle_2_types;
+
+type uint8_t  = byte;
+type int8_t   = short;
+type uint16_t = word;
+type int16_t  = integer;
+type uint32_t = dword;
+type int32_t  = longint;
+
+type T_ANGLE2_P = ^const uint8_t;
+type T_ANGLE2_DEG_VAL = double;
+type T_ANGLE2_DIG_VAL = uint16_t;
+
+end.
